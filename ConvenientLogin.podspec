@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
 
     s.subspec 'Tools' do |tools|
         tools.source_files = 'ConvenientLogin/Classes/Tools/**.{h,m}'
-        tools.dependency 'ConvenientLogin/UserStore'
         tools.dependency 'MBProgressHUD', '~> 0.9.1'
     end
 
@@ -30,7 +29,6 @@ Pod::Spec.new do |s|
     s.subspec 'ThirdParty' do |thirdParty|
         thirdParty.source_files = 'ConvenientLogin/Classes/ThirdParty/**.{h,m}'
         thirdParty.frameworks = 'UIKit'
-        thirdParty.dependency 'ConvenientLogin/UserStore'
         thirdParty.dependency 'ConvenientLogin/Tools'
         thirdParty.dependency 'ConvenientLogin/Network'
     end
