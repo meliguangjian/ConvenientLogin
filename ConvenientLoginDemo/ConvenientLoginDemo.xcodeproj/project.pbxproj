@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9738ECF3F00C92D9A3F5A840 /* libPods-ConvenientLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D04C08A220EA5FDB93112E9 /* libPods-ConvenientLoginDemo.a */; };
+		97F0298A1F29BA5D00A50021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029891F29BA5D00A50021 /* main.m */; };
+		97F0298D1F29BA5D00A50021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0298C1F29BA5D00A50021 /* AppDelegate.m */; };
+		97F029901F29BA5E00A50021 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0298F1F29BA5E00A50021 /* ViewController.m */; };
+		97F029931F29BA5E00A50021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F029911F29BA5E00A50021 /* Main.storyboard */; };
+		97F029951F29BA5E00A50021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F029941F29BA5E00A50021 /* Assets.xcassets */; };
+		97F029981F29BA5E00A50021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F029961F29BA5E00A50021 /* LaunchScreen.storyboard */; };
+		97F029A31F29BA5E00A50021 /* ConvenientLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029A21F29BA5E00A50021 /* ConvenientLoginDemoTests.m */; };
+		97F029EF1F29BA8900A50021 /* LLUserThirdPartyLoginManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */; };
+		97F029F01F29BA8900A50021 /* LLUserNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */; };
+		97F029F11F29BA8900A50021 /* LLUserNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */; };
+		97F029F21F29BA8900A50021 /* LLUserNetworkRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */; };
+		97F029F41F29BA8900A50021 /* LLSSUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C01F29BA8800A50021 /* LLSSUserInfo.m */; };
+		97F029F51F29BA8900A50021 /* LLUserApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C21F29BA8800A50021 /* LLUserApiManager.m */; };
+		97F029F61F29BA8900A50021 /* LLUserSDKConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */; };
+		97F029F71F29BA8900A50021 /* LLUserThirdPartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */; };
+		97F029F81F29BA8900A50021 /* NSMutableDictionary+LLUserSDKInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */; };
+		97F029F91F29BA8900A50021 /* LLUserFormatTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */; };
+		97F029FA1F29BA8900A50021 /* LLUserHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CD1F29BA8800A50021 /* LLUserHudTool.m */; };
+		97F029FB1F29BA8900A50021 /* LLUserLocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */; };
+		97F029FC1F29BA8900A50021 /* LLUserScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029D11F29BA8800A50021 /* LLUserScanCode.m */; };
+		97F029FD1F29BA8900A50021 /* LLUserValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029D31F29BA8800A50021 /* LLUserValidate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97F0299F1F29BA5E00A50021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F0297D1F29BA5D00A50021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F029841F29BA5D00A50021;
+			remoteInfo = ConvenientLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D04C08A220EA5FDB93112E9 /* libPods-ConvenientLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConvenientLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBE7F288A2D6E2C475B4FA0 /* Pods-ConvenientLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvenientLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvenientLoginDemo/Pods-ConvenientLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB97D13BF6C5011A566A829 /* Pods-ConvenientLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvenientLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvenientLoginDemo/Pods-ConvenientLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97F029851F29BA5D00A50021 /* ConvenientLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvenientLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F029891F29BA5D00A50021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97F0298B1F29BA5D00A50021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97F0298C1F29BA5D00A50021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97F0298E1F29BA5D00A50021 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97F0298F1F29BA5E00A50021 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97F029921F29BA5E00A50021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F029941F29BA5E00A50021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F029971F29BA5E00A50021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F029991F29BA5E00A50021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F0299E1F29BA5E00A50021 /* ConvenientLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvenientLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F029A21F29BA5E00A50021 /* ConvenientLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvenientLoginDemoTests.m; sourceTree = "<group>"; };
+		97F029A41F29BA5E00A50021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F029B21F29BA8800A50021 /* LLUserThirdPartyLoginManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserThirdPartyLoginManger.h; sourceTree = "<group>"; };
+		97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserThirdPartyLoginManger.m; sourceTree = "<group>"; };
+		97F029B51F29BA8800A50021 /* LLUserNetInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetInterface.h; sourceTree = "<group>"; };
+		97F029B61F29BA8800A50021 /* LLUserNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkManager.h; sourceTree = "<group>"; };
+		97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkManager.m; sourceTree = "<group>"; };
+		97F029B81F29BA8800A50021 /* LLUserNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkRequest.h; sourceTree = "<group>"; };
+		97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkRequest.m; sourceTree = "<group>"; };
+		97F029BA1F29BA8800A50021 /* LLUserNetworkRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkRequestSerializer.h; sourceTree = "<group>"; };
+		97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkRequestSerializer.m; sourceTree = "<group>"; };
+		97F029BF1F29BA8800A50021 /* LLSSUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSSUserInfo.h; sourceTree = "<group>"; };
+		97F029C01F29BA8800A50021 /* LLSSUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSSUserInfo.m; sourceTree = "<group>"; };
+		97F029C11F29BA8800A50021 /* LLUserApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserApiManager.h; sourceTree = "<group>"; };
+		97F029C21F29BA8800A50021 /* LLUserApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserApiManager.m; sourceTree = "<group>"; };
+		97F029C31F29BA8800A50021 /* LLUserSDKConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserSDKConnector.h; sourceTree = "<group>"; };
+		97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserSDKConnector.m; sourceTree = "<group>"; };
+		97F029C51F29BA8800A50021 /* LLUserThirdPartyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserThirdPartyAccount.h; sourceTree = "<group>"; };
+		97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserThirdPartyAccount.m; sourceTree = "<group>"; };
+		97F029C71F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LLUserSDKInit.h"; sourceTree = "<group>"; };
+		97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LLUserSDKInit.m"; sourceTree = "<group>"; };
+		97F029CA1F29BA8800A50021 /* LLUserFormatTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserFormatTime.h; sourceTree = "<group>"; };
+		97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserFormatTime.m; sourceTree = "<group>"; };
+		97F029CC1F29BA8800A50021 /* LLUserHudTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserHudTool.h; sourceTree = "<group>"; };
+		97F029CD1F29BA8800A50021 /* LLUserHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserHudTool.m; sourceTree = "<group>"; };
+		97F029CE1F29BA8800A50021 /* LLUserLocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserLocalizable.h; sourceTree = "<group>"; };
+		97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserLocalizable.m; sourceTree = "<group>"; };
+		97F029D01F29BA8800A50021 /* LLUserScanCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserScanCode.h; sourceTree = "<group>"; };
+		97F029D11F29BA8800A50021 /* LLUserScanCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserScanCode.m; sourceTree = "<group>"; };
+		97F029D21F29BA8800A50021 /* LLUserValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserValidate.h; sourceTree = "<group>"; };
+		97F029D31F29BA8800A50021 /* LLUserValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserValidate.m; sourceTree = "<group>"; };
+		97F029D91F29BA8800A50021 /* LLUserConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLUserConstant.h; path = ../UserStore/LLUserConstant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F029821F29BA5D00A50021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9738ECF3F00C92D9A3F5A840 /* libPods-ConvenientLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F0299B1F29BA5E00A50021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1495490B70672CA5E9B3FBED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE7F288A2D6E2C475B4FA0 /* Pods-ConvenientLoginDemo.debug.xcconfig */,
+				7EB97D13BF6C5011A566A829 /* Pods-ConvenientLoginDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E04D1E38A5D9031AFFF0F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D04C08A220EA5FDB93112E9 /* libPods-ConvenientLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97F0297C1F29BA5D00A50021 = {
+			isa = PBXGroup;
+			children = (
+				97F029871F29BA5D00A50021 /* ConvenientLoginDemo */,
+				97F029A11F29BA5E00A50021 /* ConvenientLoginDemoTests */,
+				97F029861F29BA5D00A50021 /* Products */,
+				1495490B70672CA5E9B3FBED /* Pods */,
+				6E04D1E38A5D9031AFFF0F45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97F029861F29BA5D00A50021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F029851F29BA5D00A50021 /* ConvenientLoginDemo.app */,
+				97F0299E1F29BA5E00A50021 /* ConvenientLoginDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F029871F29BA5D00A50021 /* ConvenientLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97F0298B1F29BA5D00A50021 /* AppDelegate.h */,
+				97F0298C1F29BA5D00A50021 /* AppDelegate.m */,
+				97F0298E1F29BA5D00A50021 /* ViewController.h */,
+				97F0298F1F29BA5E00A50021 /* ViewController.m */,
+				97F029AD1F29BA8800A50021 /* Classes */,
+				97F029911F29BA5E00A50021 /* Main.storyboard */,
+				97F029941F29BA5E00A50021 /* Assets.xcassets */,
+				97F029961F29BA5E00A50021 /* LaunchScreen.storyboard */,
+				97F029991F29BA5E00A50021 /* Info.plist */,
+				97F029881F29BA5D00A50021 /* Supporting Files */,
+			);
+			path = ConvenientLoginDemo;
+			sourceTree = "<group>";
+		};
+		97F029881F29BA5D00A50021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F029891F29BA5D00A50021 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F029A11F29BA5E00A50021 /* ConvenientLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				97F029A21F29BA5E00A50021 /* ConvenientLoginDemoTests.m */,
+				97F029A41F29BA5E00A50021 /* Info.plist */,
+			);
+			path = ConvenientLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		97F029AD1F29BA8800A50021 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97F029B21F29BA8800A50021 /* LLUserThirdPartyLoginManger.h */,
+				97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */,
+				97F029B41F29BA8800A50021 /* Network */,
+				97F029BE1F29BA8800A50021 /* ThirdParty */,
+				97F029C91F29BA8800A50021 /* Tools */,
+			);
+			name = Classes;
+			path = ../../ConvenientLogin/Classes;
+			sourceTree = "<group>";
+		};
+		97F029B41F29BA8800A50021 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				97F029B51F29BA8800A50021 /* LLUserNetInterface.h */,
+				97F029B61F29BA8800A50021 /* LLUserNetworkManager.h */,
+				97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */,
+				97F029B81F29BA8800A50021 /* LLUserNetworkRequest.h */,
+				97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */,
+				97F029BA1F29BA8800A50021 /* LLUserNetworkRequestSerializer.h */,
+				97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		97F029BE1F29BA8800A50021 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				97F029BF1F29BA8800A50021 /* LLSSUserInfo.h */,
+				97F029C01F29BA8800A50021 /* LLSSUserInfo.m */,
+				97F029C11F29BA8800A50021 /* LLUserApiManager.h */,
+				97F029C21F29BA8800A50021 /* LLUserApiManager.m */,
+				97F029C31F29BA8800A50021 /* LLUserSDKConnector.h */,
+				97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */,
+				97F029C51F29BA8800A50021 /* LLUserThirdPartyAccount.h */,
+				97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */,
+				97F029C71F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.h */,
+				97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		97F029C91F29BA8800A50021 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				97F029D91F29BA8800A50021 /* LLUserConstant.h */,
+				97F029CA1F29BA8800A50021 /* LLUserFormatTime.h */,
+				97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */,
+				97F029CC1F29BA8800A50021 /* LLUserHudTool.h */,
+				97F029CD1F29BA8800A50021 /* LLUserHudTool.m */,
+				97F029CE1F29BA8800A50021 /* LLUserLocalizable.h */,
+				97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */,
+				97F029D01F29BA8800A50021 /* LLUserScanCode.h */,
+				97F029D11F29BA8800A50021 /* LLUserScanCode.m */,
+				97F029D21F29BA8800A50021 /* LLUserValidate.h */,
+				97F029D31F29BA8800A50021 /* LLUserValidate.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F029841F29BA5D00A50021 /* ConvenientLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F029A71F29BA5E00A50021 /* Build configuration list for PBXNativeTarget "ConvenientLoginDemo" */;
+			buildPhases = (
+				7011CA63304FFF0883891F26 /* 📦 Check Pods Manifest.lock */,
+				97F029811F29BA5D00A50021 /* Sources */,
+				97F029821F29BA5D00A50021 /* Frameworks */,
+				97F029831F29BA5D00A50021 /* Resources */,
+				859C17C56494D753626565D9 /* 📦 Embed Pods Frameworks */,
+				1E6CBB1EF160CA3D10F85E3A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvenientLoginDemo;
+			productName = ConvenientLoginDemo;
+			productReference = 97F029851F29BA5D00A50021 /* ConvenientLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97F0299D1F29BA5E00A50021 /* ConvenientLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F029AA1F29BA5E00A50021 /* Build configuration list for PBXNativeTarget "ConvenientLoginDemoTests" */;
+			buildPhases = (
+				97F0299A1F29BA5E00A50021 /* Sources */,
+				97F0299B1F29BA5E00A50021 /* Frameworks */,
+				97F0299C1F29BA5E00A50021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F029A01F29BA5E00A50021 /* PBXTargetDependency */,
+			);
+			name = ConvenientLoginDemoTests;
+			productName = ConvenientLoginDemoTests;
+			productReference = 97F0299E1F29BA5E00A50021 /* ConvenientLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F0297D1F29BA5D00A50021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liguangjian;
+				TargetAttributes = {
+					97F029841F29BA5D00A50021 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					97F0299D1F29BA5E00A50021 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97F029841F29BA5D00A50021;
+					};
+				};
+			};
+			buildConfigurationList = 97F029801F29BA5D00A50021 /* Build configuration list for PBXProject "ConvenientLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F0297C1F29BA5D00A50021;
+			productRefGroup = 97F029861F29BA5D00A50021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F029841F29BA5D00A50021 /* ConvenientLoginDemo */,
+				97F0299D1F29BA5E00A50021 /* ConvenientLoginDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F029831F29BA5D00A50021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F029981F29BA5E00A50021 /* LaunchScreen.storyboard in Resources */,
+				97F029951F29BA5E00A50021 /* Assets.xcassets in Resources */,
+				97F029931F29BA5E00A50021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F0299C1F29BA5E00A50021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E6CBB1EF160CA3D10F85E3A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvenientLoginDemo/Pods-ConvenientLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7011CA63304FFF0883891F26 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		859C17C56494D753626565D9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvenientLoginDemo/Pods-ConvenientLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F029811F29BA5D00A50021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F029F21F29BA8900A50021 /* LLUserNetworkRequestSerializer.m in Sources */,
+				97F029901F29BA5E00A50021 /* ViewController.m in Sources */,
+				97F029FD1F29BA8900A50021 /* LLUserValidate.m in Sources */,
+				97F029F41F29BA8900A50021 /* LLSSUserInfo.m in Sources */,
+				97F029FA1F29BA8900A50021 /* LLUserHudTool.m in Sources */,
+				97F029F51F29BA8900A50021 /* LLUserApiManager.m in Sources */,
+				97F029F61F29BA8900A50021 /* LLUserSDKConnector.m in Sources */,
+				97F029F81F29BA8900A50021 /* NSMutableDictionary+LLUserSDKInit.m in Sources */,
+				97F029F71F29BA8900A50021 /* LLUserThirdPartyAccount.m in Sources */,
+				97F029FC1F29BA8900A50021 /* LLUserScanCode.m in Sources */,
+				97F029F11F29BA8900A50021 /* LLUserNetworkRequest.m in Sources */,
+				97F029EF1F29BA8900A50021 /* LLUserThirdPartyLoginManger.m in Sources */,
+				97F029F91F29BA8900A50021 /* LLUserFormatTime.m in Sources */,
+				97F029F01F29BA8900A50021 /* LLUserNetworkManager.m in Sources */,
+				97F029FB1F29BA8900A50021 /* LLUserLocalizable.m in Sources */,
+				97F0298D1F29BA5D00A50021 /* AppDelegate.m in Sources */,
+				97F0298A1F29BA5D00A50021 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F0299A1F29BA5E00A50021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F029A31F29BA5E00A50021 /* ConvenientLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F029A01F29BA5E00A50021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F029841F29BA5D00A50021 /* ConvenientLoginDemo */;
+			targetProxy = 97F0299F1F29BA5E00A50021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97F029911F29BA5E00A50021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F029921F29BA5E00A50021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F029961F29BA5E00A50021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F029971F29BA5E00A50021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F029A51F29BA5E00A50021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97F029A61F29BA5E00A50021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F029A81F29BA5E00A50021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBE7F288A2D6E2C475B4FA0 /* Pods-ConvenientLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvenientLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97F029A91F29BA5E00A50021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB97D13BF6C5011A566A829 /* Pods-ConvenientLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvenientLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97F029AB1F29BA5E00A50021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvenientLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvenientLoginDemo.app/ConvenientLoginDemo";
+			};
+			name = Debug;
+		};
+		97F029AC1F29BA5E00A50021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvenientLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvenientLoginDemo.app/ConvenientLoginDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F029801F29BA5D00A50021 /* Build configuration list for PBXProject "ConvenientLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F029A51F29BA5E00A50021 /* Debug */,
+				97F029A61F29BA5E00A50021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F029A71F29BA5E00A50021 /* Build configuration list for PBXNativeTarget "ConvenientLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F029A81F29BA5E00A50021 /* Debug */,
+				97F029A91F29BA5E00A50021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F029AA1F29BA5E00A50021 /* Build configuration list for PBXNativeTarget "ConvenientLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F029AB1F29BA5E00A50021 /* Debug */,
+				97F029AC1F29BA5E00A50021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F0297D1F29BA5D00A50021 /* Project object */;
+}

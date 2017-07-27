@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'ConvenientLoginDemo.xcodeproj'
+
+target 'ConvenientLoginDemo' do
+    
+    pod 'TYAlertController'
+    
+    pod 'Reachability'
+
+	pod 'MBProgressHUD', '~> 0.9.1'
+
+	pod 'APLKeyboardControls'
+    
+end
