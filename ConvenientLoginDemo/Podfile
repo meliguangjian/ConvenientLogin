@@ -1,3 +1,4 @@
+source 'https://github.com/meliguangjian/lgj-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 xcodeproj 'ConvenientLoginDemo.xcodeproj'
@@ -11,5 +12,8 @@ target 'ConvenientLoginDemo' do
 	pod 'MBProgressHUD', '~> 0.9.1'
 
 	pod 'APLKeyboardControls'
+    
+    pod 'ConvenientLogin'
+    pod 'ConvenientLogin/Connection/WeChatSDK'
     
 end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = 'ConvenientLogin'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.homepage     = "http://www.lianluo.com/"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "liguangjian" => "liguangjian@lianluo.com" }
@@ -35,15 +35,33 @@ Pod::Spec.new do |s|
 
     s.subspec 'Connection' do |sp|
         # 腾讯QQ
-        #sp.subspec 'QQ' do |ssp|
-         #   ssp.vendored_frameworks = 'ConvenientLogin/Lib/TencentOpenApiSDK/Basic/TencentOpenAPI.framework'
-        #    ssp.libraries = 'sqlite3'
-        #end
+        sp.subspec 'QQ' do |ssp|
+            ssp.vendored_frameworks = 'ConvenientLogin/Lib/TencentOpenApiSDK/TencentOpenAPI.framework'
+            ssp.libraries = 'sqlite3'
+        end
         # WeChatSDK
         sp.subspec 'WeChatSDK' do |ssp|
             ssp.vendored_libraries = "ConvenientLogin/Lib/WeChatSDK/*.a"
             ssp.source_files = "ConvenientLogin/Lib/WeChatSDK/*.h"
             ssp.libraries = 'sqlite3'
+        end
+        # SinaWeibo
+        sp.subspec 'SinaWeibo' do |ssp|
+            ssp.vendored_libraries = "ConvenientLogin/Lib/SinaWeiboSDK/*.a"
+            ssp.resources = 'ConvenientLogin/Lib/SinaWeiboSDK/WeiboSDK.bundle'
+            ssp.frameworks = 'ImageIO'
+            ssp.libraries = 'sqlite3'
+            ssp.source_files = "ConvenientLogin/Lib/SinaWeiboSDK/*.{h,m}"
+            ssp.public_header_files = "ConvenientLogin/Lib/SinaWeiboSDK/*.h"
+        end
+        # Facebook
+        sp.subspec 'Facebook' do |ssp|
+            ssp.vendored_frameworks = 'ConvenientLogin/Lib/FacebookSDK/Bolts.framework', 'ConvenientLogin/Lib/FacebookSDK/FBSDKCoreKit.framework', 'ConvenientLogin/Lib/FacebookSDK/FBSDKLoginKit.framework'
+            ssp.resource = 'ConvenientLogin/Lib/FacebookSDK/FacebookSDKStrings.bundle'
+        end
+        # Facebook
+        sp.subspec 'Twitter' do |ssp|
+            ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/Fabric.framework', 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/FacebookSDK/TwitterKit.framework'
         end
     end
 end
