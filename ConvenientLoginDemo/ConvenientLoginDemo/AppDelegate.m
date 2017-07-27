@@ -8,6 +8,13 @@
 
 #import "AppDelegate.h"
 
+#import "WXApi.h"
+#import <WeiboSDK.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <Twitter/Twitter.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "LLUserThirdPartyLoginManger.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +24,57 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [LLUserThirdPartyLoginManger registerActivePlatforms:@[@(LLUserSdkPlatformTypeSinaWeibo),@(LLUserSdkPlatformTypeTencentWeiXin),@(LLUserSdkPlatformTypeTwitter),@(LLUserSdkPlatformTypeQQ),@(LLUserSdkPlatformTypeFacebook)] onImport:^(LLUserSdkPlatformType platformType) {
+        
+        switch (platformType)
+        {
+            case LLUserSdkPlatformTypeSinaWeibo:
+                [LLUserSDKConnector connectWeibo:[WeiboSDK class]];
+                break;
+            case LLUserSdkPlatformTypeTencentWeiXin:
+                [LLUserSDKConnector connectWeChat:[WXApi class] delegate:self];
+                break;
+            case LLUserSdkPlatformTypeFacebook:
+                [LLUserSDKConnector connectFacebook:[FBSDKApplicationDelegate class] launchOptions:launchOptions];
+                break;
+            case LLUserSdkPlatformTypeTwitter:
+                [LLUserSDKConnector connectTwitter:[Twitter class]];
+                break;
+            case LLUserSdkPlatformTypeQQ:
+                [LLUserSDKConnector connectQQ];
+                
+                break;
+            default:
+                break;
+        }
+        
+    } onConfiguration:^(LLUserSdkPlatformType platformType, NSMutableDictionary *appInfo) {
+        
+        switch (platformType) {     //facebook请在info.plist上设置FacebookAppID跟FacebookDisplayName
+            case LLUserSdkPlatformTypeSinaWeibo:
+                [appInfo LLUserSDKSetupSinaWeiboByAppKey:@"1634853870" appSecret:@"38a4f8204cc784f81f9f0daaf31e02e3" redirectUri:@"https://www.baidu.com"];
+                
+                break;
+            case LLUserSdkPlatformTypeTencentWeiXin:
+                [appInfo LLUserSDKSetupWeChatByAppId:@"wxc60eab93d2dba545" appSecret:@"6d033ba665bb11207b5c43fc13d06d5d"];
+                
+                break;
+            case LLUserSdkPlatformTypeQQ:
+                [appInfo LLUserSDKSetupQQAppKey:@"1104957962"];
+                
+                break;
+            case LLUserSdkPlatformTypeTwitter:
+                [appInfo LLUserSDKSetupTwitterByConsumerKey:@"uS0oG2HGdJu7VzrzMtcuQUSYX" consumerSecret:@"CMY0X8dIsuIEOBHL6ED8SLFRjhsIISllQ1TlXVEVyU6PLOupw0" redirectUri:nil];
+                
+                break;
+            default:
+                break;
+        }
+        
+    }];
+    
+    
     return YES;
 }
 

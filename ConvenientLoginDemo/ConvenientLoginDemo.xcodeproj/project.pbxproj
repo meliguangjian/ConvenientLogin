@@ -15,20 +15,6 @@
 		97F029951F29BA5E00A50021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F029941F29BA5E00A50021 /* Assets.xcassets */; };
 		97F029981F29BA5E00A50021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F029961F29BA5E00A50021 /* LaunchScreen.storyboard */; };
 		97F029A31F29BA5E00A50021 /* ConvenientLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029A21F29BA5E00A50021 /* ConvenientLoginDemoTests.m */; };
-		97F029EF1F29BA8900A50021 /* LLUserThirdPartyLoginManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */; };
-		97F029F01F29BA8900A50021 /* LLUserNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */; };
-		97F029F11F29BA8900A50021 /* LLUserNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */; };
-		97F029F21F29BA8900A50021 /* LLUserNetworkRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */; };
-		97F029F41F29BA8900A50021 /* LLSSUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C01F29BA8800A50021 /* LLSSUserInfo.m */; };
-		97F029F51F29BA8900A50021 /* LLUserApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C21F29BA8800A50021 /* LLUserApiManager.m */; };
-		97F029F61F29BA8900A50021 /* LLUserSDKConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */; };
-		97F029F71F29BA8900A50021 /* LLUserThirdPartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */; };
-		97F029F81F29BA8900A50021 /* NSMutableDictionary+LLUserSDKInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */; };
-		97F029F91F29BA8900A50021 /* LLUserFormatTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */; };
-		97F029FA1F29BA8900A50021 /* LLUserHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CD1F29BA8800A50021 /* LLUserHudTool.m */; };
-		97F029FB1F29BA8900A50021 /* LLUserLocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */; };
-		97F029FC1F29BA8900A50021 /* LLUserScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029D11F29BA8800A50021 /* LLUserScanCode.m */; };
-		97F029FD1F29BA8900A50021 /* LLUserValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F029D31F29BA8800A50021 /* LLUserValidate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,36 +44,6 @@
 		97F0299E1F29BA5E00A50021 /* ConvenientLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvenientLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F029A21F29BA5E00A50021 /* ConvenientLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvenientLoginDemoTests.m; sourceTree = "<group>"; };
 		97F029A41F29BA5E00A50021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97F029B21F29BA8800A50021 /* LLUserThirdPartyLoginManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserThirdPartyLoginManger.h; sourceTree = "<group>"; };
-		97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserThirdPartyLoginManger.m; sourceTree = "<group>"; };
-		97F029B51F29BA8800A50021 /* LLUserNetInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetInterface.h; sourceTree = "<group>"; };
-		97F029B61F29BA8800A50021 /* LLUserNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkManager.h; sourceTree = "<group>"; };
-		97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkManager.m; sourceTree = "<group>"; };
-		97F029B81F29BA8800A50021 /* LLUserNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkRequest.h; sourceTree = "<group>"; };
-		97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkRequest.m; sourceTree = "<group>"; };
-		97F029BA1F29BA8800A50021 /* LLUserNetworkRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserNetworkRequestSerializer.h; sourceTree = "<group>"; };
-		97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserNetworkRequestSerializer.m; sourceTree = "<group>"; };
-		97F029BF1F29BA8800A50021 /* LLSSUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSSUserInfo.h; sourceTree = "<group>"; };
-		97F029C01F29BA8800A50021 /* LLSSUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSSUserInfo.m; sourceTree = "<group>"; };
-		97F029C11F29BA8800A50021 /* LLUserApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserApiManager.h; sourceTree = "<group>"; };
-		97F029C21F29BA8800A50021 /* LLUserApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserApiManager.m; sourceTree = "<group>"; };
-		97F029C31F29BA8800A50021 /* LLUserSDKConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserSDKConnector.h; sourceTree = "<group>"; };
-		97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserSDKConnector.m; sourceTree = "<group>"; };
-		97F029C51F29BA8800A50021 /* LLUserThirdPartyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserThirdPartyAccount.h; sourceTree = "<group>"; };
-		97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserThirdPartyAccount.m; sourceTree = "<group>"; };
-		97F029C71F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LLUserSDKInit.h"; sourceTree = "<group>"; };
-		97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LLUserSDKInit.m"; sourceTree = "<group>"; };
-		97F029CA1F29BA8800A50021 /* LLUserFormatTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserFormatTime.h; sourceTree = "<group>"; };
-		97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserFormatTime.m; sourceTree = "<group>"; };
-		97F029CC1F29BA8800A50021 /* LLUserHudTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserHudTool.h; sourceTree = "<group>"; };
-		97F029CD1F29BA8800A50021 /* LLUserHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserHudTool.m; sourceTree = "<group>"; };
-		97F029CE1F29BA8800A50021 /* LLUserLocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserLocalizable.h; sourceTree = "<group>"; };
-		97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserLocalizable.m; sourceTree = "<group>"; };
-		97F029D01F29BA8800A50021 /* LLUserScanCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserScanCode.h; sourceTree = "<group>"; };
-		97F029D11F29BA8800A50021 /* LLUserScanCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserScanCode.m; sourceTree = "<group>"; };
-		97F029D21F29BA8800A50021 /* LLUserValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserValidate.h; sourceTree = "<group>"; };
-		97F029D31F29BA8800A50021 /* LLUserValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserValidate.m; sourceTree = "<group>"; };
-		97F029D91F29BA8800A50021 /* LLUserConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLUserConstant.h; path = ../UserStore/LLUserConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +109,6 @@
 				97F0298C1F29BA5D00A50021 /* AppDelegate.m */,
 				97F0298E1F29BA5D00A50021 /* ViewController.h */,
 				97F0298F1F29BA5E00A50021 /* ViewController.m */,
-				97F029AD1F29BA8800A50021 /* Classes */,
 				97F029911F29BA5E00A50021 /* Main.storyboard */,
 				97F029941F29BA5E00A50021 /* Assets.xcassets */,
 				97F029961F29BA5E00A50021 /* LaunchScreen.storyboard */,
@@ -178,68 +133,6 @@
 				97F029A41F29BA5E00A50021 /* Info.plist */,
 			);
 			path = ConvenientLoginDemoTests;
-			sourceTree = "<group>";
-		};
-		97F029AD1F29BA8800A50021 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				97F029B21F29BA8800A50021 /* LLUserThirdPartyLoginManger.h */,
-				97F029B31F29BA8800A50021 /* LLUserThirdPartyLoginManger.m */,
-				97F029B41F29BA8800A50021 /* Network */,
-				97F029BE1F29BA8800A50021 /* ThirdParty */,
-				97F029C91F29BA8800A50021 /* Tools */,
-			);
-			name = Classes;
-			path = ../../ConvenientLogin/Classes;
-			sourceTree = "<group>";
-		};
-		97F029B41F29BA8800A50021 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				97F029B51F29BA8800A50021 /* LLUserNetInterface.h */,
-				97F029B61F29BA8800A50021 /* LLUserNetworkManager.h */,
-				97F029B71F29BA8800A50021 /* LLUserNetworkManager.m */,
-				97F029B81F29BA8800A50021 /* LLUserNetworkRequest.h */,
-				97F029B91F29BA8800A50021 /* LLUserNetworkRequest.m */,
-				97F029BA1F29BA8800A50021 /* LLUserNetworkRequestSerializer.h */,
-				97F029BB1F29BA8800A50021 /* LLUserNetworkRequestSerializer.m */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		97F029BE1F29BA8800A50021 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				97F029BF1F29BA8800A50021 /* LLSSUserInfo.h */,
-				97F029C01F29BA8800A50021 /* LLSSUserInfo.m */,
-				97F029C11F29BA8800A50021 /* LLUserApiManager.h */,
-				97F029C21F29BA8800A50021 /* LLUserApiManager.m */,
-				97F029C31F29BA8800A50021 /* LLUserSDKConnector.h */,
-				97F029C41F29BA8800A50021 /* LLUserSDKConnector.m */,
-				97F029C51F29BA8800A50021 /* LLUserThirdPartyAccount.h */,
-				97F029C61F29BA8800A50021 /* LLUserThirdPartyAccount.m */,
-				97F029C71F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.h */,
-				97F029C81F29BA8800A50021 /* NSMutableDictionary+LLUserSDKInit.m */,
-			);
-			path = ThirdParty;
-			sourceTree = "<group>";
-		};
-		97F029C91F29BA8800A50021 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				97F029D91F29BA8800A50021 /* LLUserConstant.h */,
-				97F029CA1F29BA8800A50021 /* LLUserFormatTime.h */,
-				97F029CB1F29BA8800A50021 /* LLUserFormatTime.m */,
-				97F029CC1F29BA8800A50021 /* LLUserHudTool.h */,
-				97F029CD1F29BA8800A50021 /* LLUserHudTool.m */,
-				97F029CE1F29BA8800A50021 /* LLUserLocalizable.h */,
-				97F029CF1F29BA8800A50021 /* LLUserLocalizable.m */,
-				97F029D01F29BA8800A50021 /* LLUserScanCode.h */,
-				97F029D11F29BA8800A50021 /* LLUserScanCode.m */,
-				97F029D21F29BA8800A50021 /* LLUserValidate.h */,
-				97F029D31F29BA8800A50021 /* LLUserValidate.m */,
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +187,7 @@
 				TargetAttributes = {
 					97F029841F29BA5D00A50021 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23ZQ26R8J4;
 						ProvisioningStyle = Automatic;
 					};
 					97F0299D1F29BA5E00A50021 = {
@@ -395,21 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F029F21F29BA8900A50021 /* LLUserNetworkRequestSerializer.m in Sources */,
 				97F029901F29BA5E00A50021 /* ViewController.m in Sources */,
-				97F029FD1F29BA8900A50021 /* LLUserValidate.m in Sources */,
-				97F029F41F29BA8900A50021 /* LLSSUserInfo.m in Sources */,
-				97F029FA1F29BA8900A50021 /* LLUserHudTool.m in Sources */,
-				97F029F51F29BA8900A50021 /* LLUserApiManager.m in Sources */,
-				97F029F61F29BA8900A50021 /* LLUserSDKConnector.m in Sources */,
-				97F029F81F29BA8900A50021 /* NSMutableDictionary+LLUserSDKInit.m in Sources */,
-				97F029F71F29BA8900A50021 /* LLUserThirdPartyAccount.m in Sources */,
-				97F029FC1F29BA8900A50021 /* LLUserScanCode.m in Sources */,
-				97F029F11F29BA8900A50021 /* LLUserNetworkRequest.m in Sources */,
-				97F029EF1F29BA8900A50021 /* LLUserThirdPartyLoginManger.m in Sources */,
-				97F029F91F29BA8900A50021 /* LLUserFormatTime.m in Sources */,
-				97F029F01F29BA8900A50021 /* LLUserNetworkManager.m in Sources */,
-				97F029FB1F29BA8900A50021 /* LLUserLocalizable.m in Sources */,
 				97F0298D1F29BA5D00A50021 /* AppDelegate.m in Sources */,
 				97F0298A1F29BA5D00A50021 /* main.m in Sources */,
 			);
@@ -548,9 +428,10 @@
 			baseConfigurationReference = 6BBE7F288A2D6E2C475B4FA0 /* Pods-ConvenientLoginDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23ZQ26R8J4;
 				INFOPLIST_FILE = ConvenientLoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.UserCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -560,9 +441,10 @@
 			baseConfigurationReference = 7EB97D13BF6C5011A566A829 /* Pods-ConvenientLoginDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23ZQ26R8J4;
 				INFOPLIST_FILE = ConvenientLoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.ConvenientLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.UserCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

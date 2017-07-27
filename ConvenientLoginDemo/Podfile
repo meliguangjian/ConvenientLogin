@@ -15,5 +15,9 @@ target 'ConvenientLoginDemo' do
     
     pod 'ConvenientLogin'
     pod 'ConvenientLogin/Connection/WeChatSDK'
-    
+    pod 'ConvenientLogin/Connection/QQ'
+    pod 'ConvenientLogin/Connection/SinaWeibo'
+    pod 'ConvenientLogin/Connection/Facebook'
+    pod 'ConvenientLogin/Connection/Twitter'
+
 end
