@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
         # Twitter
         sp.subspec 'Twitter' do |ssp|
             ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/FacebookSDK/TwitterKit.framework'
-            ssp.resource = 'ConvenientLogin/Lib/FacebookSDK/TwitterKitResources.bundle', 'ConvenientLogin/Lib/FacebookSDK/TwitterShareExtensionUIResources.bundle'
+            ssp.resource = 'ConvenientLogin/Lib/FacebookSDK/*.bundle'
         end
     end
 end
