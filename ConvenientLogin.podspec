@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
 	s.name         = 'ConvenientLogin'
-    s.version      = '1.0.3'
+    s.version      = '1.0.4'
     s.homepage     = "http://www.lianluo.com/"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "liguangjian" => "liguangjian@lianluo.com" }
     s.summary      = 'Lianluo UserCenter Module..'
-    s.platform     =  :ios, '8.0'
+    s.platform     =  :ios, '9.0'
     s.source       = { :git => "https://github.com/meliguangjian/ConvenientLogin.git", :tag => s.version.to_s }
-    s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'
+    s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony', 'Foundation'
     s.libraries        = 'icucore', 'z.1.2.5', 'stdc++'
     s.requires_arc = true
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.0'
     s.source_files  = ["ConvenientLogin/Classes/**"]
 
     s.default_subspecs = 'Tools', 'Network', 'ThirdParty'      #默认模块如果不写则为所有
@@ -60,9 +60,10 @@ Pod::Spec.new do |s|
             ssp.resource = 'ConvenientLogin/Lib/FacebookSDK/FacebookSDKStrings.bundle'
         end
         # Twitter
-        sp.subspec 'Twitter' do |ssp|
-            ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/TwitterSDK/TwitterKit.framework'
-            ssp.resource = 'ConvenientLogin/Lib/TwitterSDK/*.bundle'
-        end
+        #sp.subspec 'Twitter' do |ssp|
+#ssp.dependency 'TwitterKit', '~> 2.8.1'
+            #ssp.frameworks = 'SafariServices'
+            #ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/TwitterSDK/TwitterKit.framework'
+        #end
     end
 end

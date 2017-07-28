@@ -18,6 +18,8 @@ target 'ConvenientLoginDemo' do
     pod 'ConvenientLogin/Connection/QQ'
     pod 'ConvenientLogin/Connection/SinaWeibo'
     pod 'ConvenientLogin/Connection/Facebook'
-    pod 'ConvenientLogin/Connection/Twitter'
+#    pod 'ConvenientLogin/Connection/Twitter'
+
+
 
 end

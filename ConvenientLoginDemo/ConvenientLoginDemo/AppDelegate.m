@@ -11,7 +11,7 @@
 #import "WXApi.h"
 #import <WeiboSDK.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <Twitter/Twitter.h>
+#import <TwitterKit/Twitter.h>
 #import <TencentOpenAPI/TencentOAuth.h>
 #import "LLUserThirdPartyLoginManger.h"
 
