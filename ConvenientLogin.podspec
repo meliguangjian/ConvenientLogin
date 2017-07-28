@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = 'ConvenientLogin'
-    s.version      = '1.0.2'
+    s.version      = '1.0.3'
     s.homepage     = "http://www.lianluo.com/"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "liguangjian" => "liguangjian@lianluo.com" }
@@ -61,8 +61,8 @@ Pod::Spec.new do |s|
         end
         # Twitter
         sp.subspec 'Twitter' do |ssp|
-            ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/FacebookSDK/TwitterKit.framework'
-            ssp.resource = 'ConvenientLogin/Lib/FacebookSDK/*.bundle'
+            ssp.vendored_frameworks = 'ConvenientLogin/Lib/TwitterSDK/TwitterCore.framework', 'ConvenientLogin/Lib/TwitterSDK/TwitterKit.framework'
+            ssp.resource = 'ConvenientLogin/Lib/TwitterSDK/*.bundle'
         end
     end
 end
